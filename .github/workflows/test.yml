@@ -2,7 +2,6 @@ name: test
 
 on:
     push:
-        branches: [master, dev]
     pull_request:
         branches: [master]
 
@@ -11,7 +10,7 @@ env:
 
 jobs:
     test:
-        name: Rust project - latest
+        name: Test
         runs-on: ubuntu-latest
         strategy:
             matrix:
