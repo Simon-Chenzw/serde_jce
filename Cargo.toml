@@ -5,6 +5,7 @@ authors = ["Simon Chen <1020359403@qq.com>"]
 edition = "2021"
 rust-version = "1.56"
 description = "Jce format support for serde-rs"
+documentation = "https://docs.rs/serde_jce"
 homepage = "https://github.com/Simon-Chenzw/serde_jce"
 repository = "https://github.com/Simon-Chenzw/serde_jce"
 license = "MIT"
